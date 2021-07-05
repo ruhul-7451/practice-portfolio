@@ -43,15 +43,16 @@ body{
     margin: 2% 5% 2% 0;
 }
 .seperate-box{
-    background-image: linear-gradient(tomato, red);
+    /*background-image: linear-gradient(tomato, red);
+    border-left: black 8px solid;
+    border-image: linear-gradient(red , blue);*/
+    background: linear-gradient(white , white) padding-box, linear-gradient(green ,tomato) border-box;
     border-left: 8px solid transparent;
-    border-image: linear-gradient(red , blue);
     border-image-slice: 1;
     border-radius: 15px;
     margin-right: 5%;
     padding: 2%;
     box-shadow: 15px 15px 25px gray;
-    
 }
 footer p{
     text-align: center;
