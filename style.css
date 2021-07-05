@@ -21,6 +21,7 @@ body{
 }
 .half-width{
     width: 50%;
+    margin-bottom: 25px;
 }
 .border-check{
     border: violet solid 1px;
@@ -33,13 +34,26 @@ body{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(royalblue , blue);
+    border-radius: 10px;
     padding: 10px 20px;
     color: white;
 }
 .text-deco{
     text-align: justify;
+    padding: 5px 10px 5px 10px;
 }
 .button-post{
     text-align: right;
     margin: 2% 5% 2% 0;
+}
+.seperate-box{
+    background-image: linear-gradient(gold, yellow);
+    border: white solid 2px;
+    border-radius: 15px;
+    box-shadow:  15px 20px 25px grey;
+    margin-right: 2%;
+    padding-left: 2%;
+}
+footer p{
+    text-align: center;
 }
