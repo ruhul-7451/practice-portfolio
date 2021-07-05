@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-image:linear-gradient( white, silver);
+}
+.h1{
+    font-size: 50px;
+}
+.red-text{
+    color: red;
+}
+.blue-text{
+    color: royalblue;
+}
+
+.display-flex {
+    display: flex;
+    border: royalblue solid 2px;
+    padding-left: 25px;
+    border: solid red 1px;
+}
+.half-width{
+    width: 50%;
+}
+.border-check{
+    border: violet solid 1px;
+}
+.image-shape{
+    width: 90%;
+    border: green solid 1px;
+    margin-left: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(royalblue , blue);
+    padding: 10px 20px;
+    color: white;
+}
+.text-deco{
+    text-align: justify;
+}
+.button-post{
+    text-align: right;
+    margin: 2% 5% 2% 0;
+}
